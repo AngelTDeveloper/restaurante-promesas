@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programmers restaurant</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>🍽️ Simulación de Cocina</h1>
+      <p>Procesamiento secuencial con Promesas en JavaScript</p>
+    </header>
+
+    <div class="actions">
+      <button id="btn-iniciar">Iniciar Orden</button>
+    </div>
+
+   
+    <div class="cards-grid">
+      <div id="card-bebida" class="card">
+        <span class="icon">🥤</span>
+        <h3>Bebida</h3>
+        <p class="status">En espera</p>
+      </div>
+
+      <div id="card-pizza" class="card">
+        <span class="icon">🍕</span>
+        <h3>Pizza</h3>
+        <p class="status">En espera</p>
+      </div>
+
+      <div id="card-postre" class="card">
+        <span class="icon">🍰</span>
+        <h3>Postre</h3>
+        <p class="status">En espera</p>
+      </div>
+    </div>
+
+   
+    <div class="terminal">
+      <div class="terminal-header">Consola de Salida</div>
+      <div id="log-output" class="terminal-body">
+        <p class="system-msg">> Haz clic en "Iniciar Orden" para comenzar...</p>
+      </div>
+    </div>
+
+    
+    <div id="final-banner" class="banner hidden">
+      🎉 ¡La orden completa ha sido entregada con éxito!
+    </div>
+
+  
+    <footer>
+      <p>Developed by <a href="https://github.com/AngelTDeveloper" target="_blank" rel="noopener noreferrer">Angel Torres</a></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
