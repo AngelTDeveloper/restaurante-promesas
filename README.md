@@ -13,10 +13,11 @@ Simulador interactivo de entrega de órdenes en tiempo real desarrollado en **Ja
 
 El código está dividido en tres archivos independientes para mantener una arquitectura limpia:
 
-
+```
 ├── index.html    # Estructura principal de la interfaz web
 ├── styles.css    # Estilos visuales y animaciones (Tema Cyberpunk)
 └── script.js     # Lógica de asincronía, Promesas y manipulación del DOM (ES6)
+```
 
 ## 🚀 Tecnologías Utilizadas
 
